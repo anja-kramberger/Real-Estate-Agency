@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-AgencijaZaNekretnine-2c133161-179a-484c-b2be-8ba6a6db317b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GemBox.Document" Version="35.0.1706" />
+    <PackageReference Include="GemBox.Pdf" Version="17.0.1404" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="23.2.7" />
+    <PackageReference Include="X.PagedList" Version="9.1.2" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="9.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\pdf\" />
+  </ItemGroup>
+
+</Project>

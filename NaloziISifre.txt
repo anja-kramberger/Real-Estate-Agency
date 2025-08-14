@@ -1,0 +1,19 @@
+Admin:
+sanja.m@gmail.com
+milos.l@gmail.com
+
+Menadzer:
+katarina.p@gmail.com
+
+Agent:
+anja.m@gmail.com
+tadija.t@gmail.com
+mirko.p@gmail.com
+
+Sifre:
+Admin - Admin123!
+Menadzer - Menadzer123!
+Agent - Agent123!
+
+Otvara se u Visual Studio 2022.
+Potrebno je promeniti ime servera u appsettings.json kao i u AgencijaNekretninaContext.cs red 39.

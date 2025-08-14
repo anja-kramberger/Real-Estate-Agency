@@ -1,0 +1,307 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: 0px !important;
+    background-image: url("/slike/magla1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center; /* Add this line */
+    background-position-y: center;
+}
+
+.container{
+    padding: 5px 0 5px 0;
+}
+
+.pb-3 {
+    align-items: center;
+    /*padding: 0px;
+    padding-top: 45px;
+    padding-bottom: 45px !important;
+    position: relative;*/
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 0 !important;
+}
+
+
+.wrappers {
+    /*position:absolute;*/
+    width: 560px;
+    height: 530px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*top: 50%;
+    left: 50%;*/
+    /*margin: -50px 0 0 -50px;*/
+}
+
+.wrappers .form-box {
+    min-width: 100%;
+    padding: 20px 40px 0 40px;
+}
+.wrappers .form-box .last-row{
+    margin-top: 40px;
+}
+.form-box h2 {
+    font-size: 2em;
+    /*color: #162938;*/
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.text-danger.validation-summary-errors{
+    margin-top: -40px;
+}
+.input-box {
+    /*position: relative;*/
+    width: 100%;
+    height: 25px;
+    border-bottom: 2px solid #162938;
+    margin: 5px 0 45px 0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    color: #C8D5C3;
+}
+.input-box-select {
+    height: 35px;
+    width: 100%;
+    border-bottom: 2px solid #162938;
+    margin: 5px 0 30px 0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box input {
+    /*display: inline-block;*/
+    box-sizing: border-box;
+    margin: auto 0 10px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 25px 0 5px;
+    user-select: none;
+    all: unset;
+}
+.input-box input::placeholder{
+    color: #C8D5C3;
+}
+
+.input-box .text-danger{
+    margin: 7px 0 5px 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: transparent !important;
+    transition: all 5000s ease-in-out 0s;
+}
+
+/*.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+    font-weight: 600;
+}*/
+.input-box-select .form-select {
+    background-color: transparent !important;
+    border: black;
+    color: #C8D5C3 !important;
+    margin-bottom: 10px;
+
+    height: 40px !important;
+}
+.input-box-select .form-select option{
+    color: #162938 !important;
+}
+.input-box-select .form-select option:hover,.input-box .form-select option:checked{
+    box-shadow: 0 0 10px 100px #134B6D inset;
+    color: #134B6D !important;
+}
+
+/*.custom-select select {
+  display: none; hide original SELECT element:
+}
+
+.input-box .form-select .select-selected {
+    background-color: transparent !important;
+}
+
+style the arrow inside the select element:
+.input-box .form-select .select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+point the arrow upwards when the select box is open (active):
+.input-box .form-select .select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+style the items (options), including the selected item:
+.input-box .form-select.select-items div, .select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+style items (options):
+.input-box .form-select .select-items {
+    position: absolute;
+    background-color: transparent !important;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+hide the items when the select box is closed:
+.input-box .form-select .select-hide {
+    display: none;
+}*/
+
+.input-box .form-select .select-items div:hover, .same-as-selected {
+    background-color: #134B6D;
+}
+
+.dugme {
+    padding-top: 20px;
+}
+
+.btn {
+   /* width: 100%;*/
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-size:1em;
+    font-weight: 500;
+    /*padding-top: 10px;*/
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #B46504;
+    border-color: #B46504;
+}
+
+.text-danger.validation-summary-errors {
+    display: flex;
+    justify-content: center;
+}
+
+.border-top {
+    border-top: 0px !important;
+}
+.wrapper .sidebar {
+    display:none;
+}
+.login-register p {
+    text-align: center;
+    color: #C8D5C3;
+}
+
+    /*.account-container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+account {
+    width: 50%;
+}
+.red {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 70%;
+}*/
+    /*.container {
+    width: 100%;
+    height: 100%;
+    padding: 25px 10px;
+}*/
+    /*.footer{
+    display: none !important;
+}
+.border-top {
+    display: none !important;
+}
+.text-muted {
+    display: none !important;
+}
+.footer.border-top.footer.text-muted {
+    display: none !important;
+}*/
+    /*.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+    .input-box label {
+        font-size: 1em;
+        color: black;
+        margin-bottom: 20px;
+    }*/
+    /*.form-box h2 {
+    font-size: 2em;
+    color: #162938;
+    color: black;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}*/

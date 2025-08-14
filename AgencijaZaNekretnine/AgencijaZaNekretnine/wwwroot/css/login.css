@@ -1,0 +1,219 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: 0px !important;
+    background-image: url("/slike/magla1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center; /* Add this line */
+    background-position-y: center;
+}
+/*.account-container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+account {
+    width: 50%;
+}
+.red {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 70%;
+}*/
+/*.container {
+    width: 100%;
+    height: 100%;
+    padding: 25px 10px;
+}*/
+/*.footer{
+    display: none !important;
+}
+.border-top {
+    display: none !important;
+}
+.text-muted {
+    display: none !important;
+}
+.footer.border-top.footer.text-muted {
+    display: none !important;
+}*/
+.pb-3{
+    align-items: center;
+    /*padding: 0px;
+    padding-top: 45px;
+    padding-bottom: 45px !important;
+    position: relative;*/
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrappers{
+    /*position:absolute;*/
+    width: 450px;
+    height: 500px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /*top: 50%;
+    left: 50%;*/
+    /*margin: -50px 0 0 -50px;*/
+}
+.wrappers .form-box{
+    width:100%;
+    padding:80px 40px 0 40px;
+
+}
+
+.form-box h2{
+    font-size:2em;
+    /*color: #162938;*/
+    color: black;
+    text-align:center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0 40px 0;
+    user-select: none;
+    color: #C8D5C3;
+}
+
+/*.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}*/
+/*.input-box label{
+    font-size: 1em;
+    color: black;
+    margin-bottom: 20px;
+}*/
+
+.input-box input{
+    width: 100% !important;
+    box-sizing:border-box;
+    height: 100%;
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+    user-select:none;
+    all:unset;
+    margin-bottom: 20px;/**/
+}
+.input-box input::placeholder{
+    color: #C8D5C3;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: transparent !important;
+    transition: all 6000s ease-in-out 0s;
+    /*color: white;*/
+}
+.input-box .svg-inline--fa{
+    /*float:right;
+    margin-top : 10px;*/
+    position:absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
+/*.input-box .icon{
+    position:absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 30px;
+    font-weight: 600;
+}*/
+.dugme{
+    padding-top: 20px;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    /*padding-top: 10px;*/
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #B46504;
+    border-color: #B46504;
+}
+.wrappers .br{
+    height:6px;
+}
+
+.text-danger.validation-summary-errors {
+    display: flex;
+    justify-content: center;
+}
+
+.border-top {
+    border-top: 0px !important;
+}
+.login-register{
+    padding-top: 20px;
+}
+.login-register p{
+    text-align:center;
+    color: #C8D5C3;
+}
+.input-box input::placeholder {
+    color: #C8D5C3;
+}
+.input-box .svg-inline--fa {
+    color: #051017;
+}

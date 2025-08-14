@@ -1,0 +1,68 @@
+﻿@model IEnumerable<AgencijaZaNekretnine.Models.UserBO>
+
+@{
+    ViewData["Title"] = "Odobri korisnike";
+}
+
+<h2>Lista za odobrenje</h2>
+
+@if (!Model.Any())
+{
+    <div class="card" style="height:420px;">
+        <div style="text-align:center;">
+            <div >
+                <img src="~/Images/notfound.png" style="height:50%; width: 50%;object-fit:cover;" />
+            </div>
+            <h3 >Trenutno nema zahteva za odobrenje.</h3>
+        </div>
+    </div>
+}
+else
+{
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="kartica">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="logo">
+                                <div class="logo-email">
+                                    <i class="fa-solid fa-envelope-open-text"></i>
+                                </div>
+
+                            </div>
+                            <div class="ime">
+                                @item.FirstName @item.LastName
+                            </div>
+                            <div class="stavka">
+                                Email: @item.Email
+                            </div>
+                            <div class="stavka">
+                                Uloga: @item.PhoneNumber
+                            </div>
+                            <div class="potvrdi">
+                                <a type="button" class="btn btn-outline-success" href="@Url.ActionLink("Confirm", "Zaposleni", new { item.Id })" style="float:right;">Odobri</a>
+                                <a type="button" class="btn btn-outline-danger" href="@Url.ActionLink("Delete", "Zaposleni", new { item.Id })" style="float:right;">Obrisi</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+@section Styles{
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link href="~/css/confirmation.css" rel="stylesheet" />
+}
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

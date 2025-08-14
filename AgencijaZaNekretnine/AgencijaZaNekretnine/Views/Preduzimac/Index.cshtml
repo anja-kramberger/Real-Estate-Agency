@@ -1,0 +1,118 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+@model IPagedList<AgencijaZaNekretnine.Models.PreduzimacBO>
+
+
+@{
+    ViewData["Title"] = "Index";
+    var controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+
+}
+
+<div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Lista Preduzimača</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body " style="margin:0 40px;">
+                    <div class="row" style="margin-bottom:30px;">
+                        <p>
+                            <a type="button" class="btn btn-success" asp-action="Create">Unesi novi ugovor</a>
+                        </p>
+                    </div>
+                    <form asp-action="Index">
+                        <div class="row" style="margin-bottom:30px;">
+
+                            <div class="col-md-4">
+                                <label>Pretraga</label>
+                                <input type="text" name="searchString" value="@ViewBag.CurrentFilter" /><br>
+                                <input type="hidden" name="searchRole" value="@ViewBag.CurrentRole" /><br>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="submit" value="Search" class="btn btn-outline-warning btn-sm" />
+                                <a type="button" class="btn btn-outline-warning btn-sm" asp-action="Index">Prikazi sve</a>
+                             </div>
+                        </div>
+                        
+                    </form>
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div class="col-md-12">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayName("Naziv")
+                                        </th>
+                                        <th>
+                                            @Html.DisplayName("Broj Nekretnina")
+                                        </th>
+                                        <th>
+                                            @Html.DisplayName("Opis")
+                                        </th>
+                                        <th>
+                                            Action
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td style="width:210px;">
+                                                @Html.DisplayFor(modelItem => item.Naziv)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.BrojNekretnina) / @Html.DisplayFor(modelItem => item.Count) 
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Opis)
+                                            </td>
+                                            <td style="min-width:100px;">
+                                                <a href="@Url.ActionLink("Edit", "Preduzimac", new { id = item.IDPreduzimaca })" ><i class="fa-solid fa-pen-to-square" style="color:blue;"></i></a>
+                                                <a class="btn" style="padding-top:0 !important;padding-bottom:0 !important;" onclick=Delete("/Preduzimac/Delete/@item.IDPreduzimaca")><i class="fa-solid fa-trash" style="color:red;"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div>
+                            <div class="pagination" style="display:inline-block; vertical-align:middle">
+                                @if (Model.PageCount > 1)
+                                {
+                                    @Html.PagedListPager(Model, page => Url.Action("Index", new
+                                {
+                                page ,
+                                currentFilter = ViewBag.CurrentFilter,
+                                }))
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+@section Styles{
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link href="~/css/zaposleni.css" rel="stylesheet" />
+}
+@section Scripts{
+    <script src="~/js/delete.js" type="text/javascript"></script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

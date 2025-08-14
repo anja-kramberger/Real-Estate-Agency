@@ -1,0 +1,85 @@
+﻿
+.container-index{
+    display:flex !important;
+    background-color: red;
+}
+.box-1{
+    height:200px;
+    width:200px;
+    background-color: orange;
+}
+.box-2 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.btn-outline-warning:hover {
+    background-color: #ed890e;
+}
+#zadnjiRed.row {
+    width: 100%;
+    margin: 25px 0 0 0;
+}
+.image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.col-md-12 {
+    position: relative;
+    height: 40px;
+}
+
+#akcije, #dgumePregled {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.col-md-12 .dropdown {
+    float:right;
+    margin-right:19%;
+}
+
+#dgumePregled  {
+    background-color: dodgerblue;
+    height: 80%;
+    width: 100px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+a {
+    color: white;
+}
+a svg {
+    color: white;
+}
+.ribbon {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1.4;
+    padding-inline: 1lh;
+    clip-path: polygon( 100% 100%,0 100%,999px calc(100% - 999px),calc(100% - 999px) calc(100% - 999px));
+    transform: translate(calc((1 - cos(45deg))*100%), -100%) rotate(45deg);
+    transform-origin: 0% 100%;
+    background-color: #BD1550; 
+}
+
+.box {
+    position: relative;
+}

@@ -1,0 +1,160 @@
+﻿@model IPagedList<AgencijaZaNekretnine.Models.UgovorBO>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Index";
+
+    var met = ViewBag.Metoda;
+
+    var controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+
+    
+}
+
+
+<div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Lista Ugovora</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body " style="margin:0 40px;">
+                    <form asp-action="Index">
+                        <div class="row" style="margin-bottom:30px;">
+                            <p>
+                                <a type="button" class="btn btn-success" asp-action="Create">Unesi novi ugovor</a>
+                            </p>
+                        </div>
+                        <div class="row" style="margin-bottom:30px;">
+                                <div class="col-md-4">
+                                    <label>Pretraga</label>
+                                    <input type="text" name="searchString" value="@ViewBag.CurrentFilter" /><br>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="submit" value="Search" class="btn btn-outline-warning btn-sm" />
+                                    <a type="button" class="btn btn-outline-warning btn-sm" asp-action="Index">Prikazi sve</a>
+                                </div>
+                            </div>
+                        
+                    </form>
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div class="col-md-12">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayName("Ime i Prezime")
+                                        </th>
+                                        <th>
+                                            @Html.DisplayName("Datum")
+                                        </th>
+                                        <th>
+                                            @Html.DisplayName("Nekretnina")
+                                        </th>
+                                        <th>
+                                            @Html.DisplayName("Broj Telefona")
+                                        </th>
+                                        <th>
+                                            @Html.DisplayName("Ugovor")
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PunoIme)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Datum)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Nekretnina.Adresa)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.BrojTelefona)
+                                            </td>
+                                            <td>
+                                                @if(item.PdfUrl != null)
+                                                {
+                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-@item.Id">
+                                                        Vidi ugovor
+                                                    </button>
+
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal-@item.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-lg">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <embed src="@item.PdfUrl" width="100%;" height="380px;" type="application/pdf">
+
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <form asp-action="NaknadniUnosPdf" enctype="multipart/form-data">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <input type="file" id="Pdf" name="Pdf" class="form-control" />
+                                                                <input type="hidden" id="ugovorId" name="ugovorId" value="@item.Id" />
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <input type="submit" value="Sacuvaj izmene" class="btn btn-warning btn-sm" />
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    
+                                                }
+
+                                            </td>
+                                            
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: 30px;">
+                        <div>
+                            <div class="pagination" style="display:inline-block; vertical-align:middle">
+                                @if (Model.PageCount > 1)
+                                {
+                                    @Html.PagedListPager(Model, page => Url.Action("Index", new
+                                {
+                                page ,
+                                currentFilter = ViewBag.CurrentFilter,
+                                }))
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+@section Styles{
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link href="~/css/zaposleni.css" rel="stylesheet" />
+}
+
+

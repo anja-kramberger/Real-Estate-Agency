@@ -1,0 +1,61 @@
+﻿body {
+    background-color:whitesmoke;
+}
+#barStatistika.card{
+    margin-bottom: 20px;
+}
+#pieStatistika.card {
+    margin-top: 20px;
+}
+.col-md-3 {
+    border-radius: 6px;
+    height: 110px;
+    width: 250px;
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+    margin-right: auto;
+    margin-left: 14px;
+    /* #0e2238 #ed890e */
+    background-color: #fffd51;
+    /*border: 3px solid #0e2238;*/
+    /*border: 10px solid;
+    display:inline-block;*/
+    background-image: linear-gradient(lightblue, #0e2238), linear-gradient(to right, #0e2238, lightblue), linear-gradient(to bottom, #0e2238, lightblue), linear-gradient(to left, #0e2238, lightblue), linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 4px 100%, 100% 4px, 4px 100%, 100% 4px, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
+}
+#naslov {
+    font-family: Calibri;
+    float: right;
+    font-size: 1.2em;
+    margin-bottom: 1px !important;
+    margin-top: 1px !important;
+}
+#broj {
+    color: #0e2238;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 20pt;
+    padding-top: 10px;
+    margin-bottom: 1px !important;
+    margin-top: 5px !important;
+}
+#myChart {
+    height: 500px;
+    width: 1296px;
+    margin-bottom: 20px;
+}
+#myChartic {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#nekretnine{
+    font-size:15pt;
+    margin-bottom:15px;
+}
+h4{
+    margin-top:30px;
+    margin-bottom: 50px;
+}

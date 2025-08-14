@@ -1,0 +1,1181 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AgencijaZaNekretnine.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AgencijaZaNekretnine.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\0377b538-5c36-41cb-93eb-83e9ae947f63_screen-post-4cdRqb-UuMk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\0377b538-5c36-41cb-93eb-83e9ae947f63_screen-post-4cdRqb-UuMk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\060e1337-4033-4231-b540-66f8bf876aa0_clay-elliot-1by_GbwEMwc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\060e1337-4033-4231-b540-66f8bf876aa0_clay-elliot-1by_GbwEMwc-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\09923a56-17bb-4231-b11f-f2db3aa760e0_spacejoy-XM-miHibz64-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\09923a56-17bb-4231-b11f-f2db3aa760e0_spacejoy-XM-miHibz64-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\0a7eb57c-289c-49d5-98a3-866704fb7478_matthew-HBjsSlRHXnY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\0a7eb57c-289c-49d5-98a3-866704fb7478_matthew-HBjsSlRHXnY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\103ca0b6-ba60-4966-9ece-ec1760e562ea_collov-home-design-wN63YFU_JXk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\103ca0b6-ba60-4966-9ece-ec1760e562ea_collov-home-design-wN63YFU_JXk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\12a435b3-202a-4a33-b7b0-3342e059e662_jana-heinemann-pVQM6vJg92M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\12a435b3-202a-4a33-b7b0-3342e059e662_jana-heinemann-pVQM6vJg92M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\12c1a5f1-944d-4d22-a28a-e734ba23a08f_kadri-karmo-qLfGWT-Mm6k-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\12c1a5f1-944d-4d22-a28a-e734ba23a08f_kadri-karmo-qLfGWT-Mm6k-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\1378f3b0-688a-4941-a880-9ca2721322cf_devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\1378f3b0-688a-4941-a880-9ca2721322cf_devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\146ff664-c1a4-43cc-86f9-42a9e6ede01a_roberto-nickson-GaBDdA63GcQ-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\146ff664-c1a4-43cc-86f9-42a9e6ede01a_roberto-nickson-GaBDdA63GcQ-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\150e4715-d6e4-479d-a3d5-39a81fa8673f_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\150e4715-d6e4-479d-a3d5-39a81fa8673f_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\1d3b4246-4b9f-4445-adac-bbedf7572c97_screen-post-4cdRqb-UuMk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\1d3b4246-4b9f-4445-adac-bbedf7572c97_screen-post-4cdRqb-UuMk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\1d6fccc2-1884-47f3-94cf-ff804d5d0a54_clay-banks-JCIMLvIrZJI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\1d6fccc2-1884-47f3-94cf-ff804d5d0a54_clay-banks-JCIMLvIrZJI-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\1fc2fc41-759d-4e4b-b390-9c4d70b8e165_collov-home-design-wN63YFU_JXk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\1fc2fc41-759d-4e4b-b390-9c4d70b8e165_collov-home-design-wN63YFU_JXk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\205abecd-36d8-4036-9ba8-79e7b38b4445_spacejoy-Vpbp-7GWTSw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\205abecd-36d8-4036-9ba8-79e7b38b4445_spacejoy-Vpbp-7GWTSw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\2525cd37-3093-46fd-8240-5de31e2d77b5_naomi-hebert-MP0bgaS_d1c-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\2525cd37-3093-46fd-8240-5de31e2d77b5_naomi-hebert-MP0bgaS_d1c-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\252c7a37-7239-419d-ba43-da9d0a2293e9_prozor.jpg",
+      "PackagePath": "staticwebassets\\Images\\252c7a37-7239-419d-ba43-da9d0a2293e9_prozor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\2573c49a-3d0a-49bb-a8b0-85340121e484_steph-wilson-sGpgrFUl-1o-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\2573c49a-3d0a-49bb-a8b0-85340121e484_steph-wilson-sGpgrFUl-1o-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\275af91d-99e5-4922-94d6-962a7391e819_rural-explorer-LPI-Un6Ch4I-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\275af91d-99e5-4922-94d6-962a7391e819_rural-explorer-LPI-Un6Ch4I-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\2b2ba4fa-f2cc-43df-a1f6-d460dd28a3a8_jana-heinemann-pVQM6vJg92M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\2b2ba4fa-f2cc-43df-a1f6-d460dd28a3a8_jana-heinemann-pVQM6vJg92M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\2d0f1899-3d81-4c13-9fc0-e467150b12c5_jana-heinemann-pVQM6vJg92M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\2d0f1899-3d81-4c13-9fc0-e467150b12c5_jana-heinemann-pVQM6vJg92M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\2d1bfc43-41d0-440c-ad23-d44f2a5f9419_rune-enstad-UXFJ-6Zj27M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\2d1bfc43-41d0-440c-ad23-d44f2a5f9419_rune-enstad-UXFJ-6Zj27M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\2e14fbe4-0fe9-47a2-971c-4c4f4169c0d0_andrea-davis-IWfe63thJxk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\2e14fbe4-0fe9-47a2-971c-4c4f4169c0d0_andrea-davis-IWfe63thJxk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\33392bc3-ee83-45b6-bc98-bf546d731e66_spacejoy-AAy5l4-oFuw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\33392bc3-ee83-45b6-bc98-bf546d731e66_spacejoy-AAy5l4-oFuw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\345e5241-206a-44c5-bbd2-a76999c04bcd_screen-post-4cdRqb-UuMk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\345e5241-206a-44c5-bbd2-a76999c04bcd_screen-post-4cdRqb-UuMk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\38602e0f-5068-4c8f-bf22-a0c270147745_sina-khansari-0nQWCqkA9yA-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\38602e0f-5068-4c8f-bf22-a0c270147745_sina-khansari-0nQWCqkA9yA-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\38a19ecb-24f4-4de8-adcb-9b96876d5226_karsten-winegeart-zgn7gvDmUBg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\38a19ecb-24f4-4de8-adcb-9b96876d5226_karsten-winegeart-zgn7gvDmUBg-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\39f880fe-9732-414d-8cc6-6cdabd43a24c_alecsandra-dw-op9YYt954qM-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\39f880fe-9732-414d-8cc6-6cdabd43a24c_alecsandra-dw-op9YYt954qM-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\3b7a206e-4937-4843-81a1-61cb10274036_ashley-byrd-yzkTCP4uc9E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\3b7a206e-4937-4843-81a1-61cb10274036_ashley-byrd-yzkTCP4uc9E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\3c7c76ca-15b6-44ed-970b-c45c747fae76_collov-home-design-wN63YFU_JXk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\3c7c76ca-15b6-44ed-970b-c45c747fae76_collov-home-design-wN63YFU_JXk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\3f499cc2-f9db-44cb-bb24-bf785fb13fe1_spacejoy-q3Qd86sfaoU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\3f499cc2-f9db-44cb-bb24-bf785fb13fe1_spacejoy-q3Qd86sfaoU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\41b1afb6-cd0a-432d-be47-3ac6b5b555c4_taylor-beach-PR7h5QGXd8A-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\41b1afb6-cd0a-432d-be47-3ac6b5b555c4_taylor-beach-PR7h5QGXd8A-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\422efe0f-b8fa-4581-aa29-f2a63bea4c63_kadri-karmo-qLfGWT-Mm6k-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\422efe0f-b8fa-4581-aa29-f2a63bea4c63_kadri-karmo-qLfGWT-Mm6k-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\42d4da0e-68f4-4bea-a37f-5ff9529fe793_spacejoy-AAy5l4-oFuw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\42d4da0e-68f4-4bea-a37f-5ff9529fe793_spacejoy-AAy5l4-oFuw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\461c330d-ff87-40e1-8720-46b70fd92ed8_nick-wright-aiPbdmaVil0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\461c330d-ff87-40e1-8720-46b70fd92ed8_nick-wright-aiPbdmaVil0-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\46b99578-c5ab-4675-96a7-daee79c41d71_cabin-rugs-ePli6L_npzg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\46b99578-c5ab-4675-96a7-daee79c41d71_cabin-rugs-ePli6L_npzg-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\4a14a06c-29ac-4d24-8039-4e81b72111dd_menh.jpg",
+      "PackagePath": "staticwebassets\\Images\\4a14a06c-29ac-4d24-8039-4e81b72111dd_menh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\4abea048-1912-47b2-b6be-1220cb8b2ea7_rural-explorer-LPI-Un6Ch4I-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\4abea048-1912-47b2-b6be-1220cb8b2ea7_rural-explorer-LPI-Un6Ch4I-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\4d973452-50c2-474f-8e91-3f78dc964c41_dane-deaner-_-KLkj7on_c-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\4d973452-50c2-474f-8e91-3f78dc964c41_dane-deaner-_-KLkj7on_c-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\4de66f66-0921-4a0f-baed-edf1ae767468_isaac-quesada-s34TlUTPIf4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\4de66f66-0921-4a0f-baed-edf1ae767468_isaac-quesada-s34TlUTPIf4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\4f38d19c-9712-49ac-bd5e-dd4b9730be1d_lotus-design-n-print-zLT3VqWEgOQ-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\4f38d19c-9712-49ac-bd5e-dd4b9730be1d_lotus-design-n-print-zLT3VqWEgOQ-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\50129511-9fc3-4313-bc3e-ba0aed5ea00a_point3d-commercial-imaging-ltd-xqlHYzU7WAY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\50129511-9fc3-4313-bc3e-ba0aed5ea00a_point3d-commercial-imaging-ltd-xqlHYzU7WAY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\51272855-1d97-4a99-85d9-a4ec7c6e472b_isaac-quesada-s34TlUTPIf4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\51272855-1d97-4a99-85d9-a4ec7c6e472b_isaac-quesada-s34TlUTPIf4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\5294621a-7936-4851-8dcc-7f37faf13674_taylor-beach-PR7h5QGXd8A-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\5294621a-7936-4851-8dcc-7f37faf13674_taylor-beach-PR7h5QGXd8A-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\537a929e-29f0-4267-b060-cfd302a0ab15_jana-heinemann-pVQM6vJg92M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\537a929e-29f0-4267-b060-cfd302a0ab15_jana-heinemann-pVQM6vJg92M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\544be141-3f2b-4df1-99af-b3b2885cf920_matthew-HBjsSlRHXnY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\544be141-3f2b-4df1-99af-b3b2885cf920_matthew-HBjsSlRHXnY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\55b83231-9b75-4fce-8a42-04d2c4c3bdaa_pankaj-shah-1ff_i7jO-4g-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\55b83231-9b75-4fce-8a42-04d2c4c3bdaa_pankaj-shah-1ff_i7jO-4g-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\55c28044-b7b1-4b41-b54d-73b17dff2e37_lotus-design-n-print-SnHO-Ua7QtY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\55c28044-b7b1-4b41-b54d-73b17dff2e37_lotus-design-n-print-SnHO-Ua7QtY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\57078fc9-e7f7-4cbc-8bb6-3b4c379abf76_lotus-design-n-print-g51F6-WYzyU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\57078fc9-e7f7-4cbc-8bb6-3b4c379abf76_lotus-design-n-print-g51F6-WYzyU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\59b867a8-df3e-4aca-89b9-1b7c61eb3531_clay-banks-JCIMLvIrZJI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\59b867a8-df3e-4aca-89b9-1b7c61eb3531_clay-banks-JCIMLvIrZJI-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\5ee0764e-2128-4c7b-a42c-d702958e8a3a_kuca1.jpg",
+      "PackagePath": "staticwebassets\\Images\\5ee0764e-2128-4c7b-a42c-d702958e8a3a_kuca1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\60d4c926-021f-421b-8dc5-b160821fba8c_taylor-beach-PR7h5QGXd8A-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\60d4c926-021f-421b-8dc5-b160821fba8c_taylor-beach-PR7h5QGXd8A-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\61c99992-ce1d-431c-a6c8-7e65adffcaf0_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\61c99992-ce1d-431c-a6c8-7e65adffcaf0_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\63cae939-7722-4629-a821-7522f8d003c7_nick-night-qM_2NDZFs9g-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\63cae939-7722-4629-a821-7522f8d003c7_nick-night-qM_2NDZFs9g-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\6486b525-4d42-428f-9fe5-62d6f64a1cfc_sina-khansari-0nQWCqkA9yA-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\6486b525-4d42-428f-9fe5-62d6f64a1cfc_sina-khansari-0nQWCqkA9yA-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\658469b1-aff1-43e1-931e-780971af33c9_cabin-rugs-ePli6L_npzg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\658469b1-aff1-43e1-931e-780971af33c9_cabin-rugs-ePli6L_npzg-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\67b66955-71d9-4a41-b651-fc4010031873_screen-post-4cdRqb-UuMk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\67b66955-71d9-4a41-b651-fc4010031873_screen-post-4cdRqb-UuMk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\67f958bd-b615-452a-b45a-def9543da713_copernico-p_kICQCOM4s-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\67f958bd-b615-452a-b45a-def9543da713_copernico-p_kICQCOM4s-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\68fd83e8-90d0-4234-8999-10bb8046c393_collov-home-design-5a7URgkummE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\68fd83e8-90d0-4234-8999-10bb8046c393_collov-home-design-5a7URgkummE-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\696b7b60-9920-4958-86aa-c4f374c8f3a7_kuca2.jpg",
+      "PackagePath": "staticwebassets\\Images\\696b7b60-9920-4958-86aa-c4f374c8f3a7_kuca2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\6abdacd8-6875-4ecd-a857-d45b9861e4c2_andrea-davis-IWfe63thJxk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\6abdacd8-6875-4ecd-a857-d45b9861e4c2_andrea-davis-IWfe63thJxk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\6c68d48f-25ba-404a-9ade-b3b15ccdb4bb_francesca-tosolini-KJFKCed0YKo-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\6c68d48f-25ba-404a-9ade-b3b15ccdb4bb_francesca-tosolini-KJFKCed0YKo-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\6d4df01c-33df-400d-85bb-572daae788e1_tania-melnyczuk-A1lfZgKxGF4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\6d4df01c-33df-400d-85bb-572daae788e1_tania-melnyczuk-A1lfZgKxGF4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\75e0ce92-4118-4b2a-968b-88ac2b74b2cf_vadim-sherbakov-RcdV8rnXSeE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\75e0ce92-4118-4b2a-968b-88ac2b74b2cf_vadim-sherbakov-RcdV8rnXSeE-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\7782b7a8-58ed-4f78-87db-82cc1a609585_emily-park-9gHZ6qxQrpI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\7782b7a8-58ed-4f78-87db-82cc1a609585_emily-park-9gHZ6qxQrpI-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\778ae017-e050-4edb-a214-862e8e839195_spacejoy-Vpbp-7GWTSw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\778ae017-e050-4edb-a214-862e8e839195_spacejoy-Vpbp-7GWTSw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\7a602b9f-c021-4666-8d67-a56d2db65902_francesca-tosolini-7e78wyHpr9E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\7a602b9f-c021-4666-8d67-a56d2db65902_francesca-tosolini-7e78wyHpr9E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\809f2675-9474-46bc-9501-7473a7afc449_david-kovalenko-9-qFzV9a2Zc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\809f2675-9474-46bc-9501-7473a7afc449_david-kovalenko-9-qFzV9a2Zc-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\80f4a10e-c3a6-4029-baf0-d62cc636b59d_spacejoy-AAy5l4-oFuw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\80f4a10e-c3a6-4029-baf0-d62cc636b59d_spacejoy-AAy5l4-oFuw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\8416c4e2-ca85-4ad8-827d-963b5b0e4a91_taylor-beach-PR7h5QGXd8A-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\8416c4e2-ca85-4ad8-827d-963b5b0e4a91_taylor-beach-PR7h5QGXd8A-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\89071ba5-95f3-40b1-8bcc-3296af95bb71_spacejoy-hWwP4LTGEQA-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\89071ba5-95f3-40b1-8bcc-3296af95bb71_spacejoy-hWwP4LTGEQA-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\8996265d-6630-4861-b428-668a70cdaa64_devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\8996265d-6630-4861-b428-668a70cdaa64_devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\8b37886d-16bb-4dda-8255-8250f19c806c_jana-heinemann-pVQM6vJg92M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\8b37886d-16bb-4dda-8255-8250f19c806c_jana-heinemann-pVQM6vJg92M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\8badcec4-d698-46be-bf25-f0e2b3d7b28e_jana-heinemann-pVQM6vJg92M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\8badcec4-d698-46be-bf25-f0e2b3d7b28e_jana-heinemann-pVQM6vJg92M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\8c1bc530-7f7a-4178-b665-d89037a6a865_spacejoy-Vpbp-7GWTSw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\8c1bc530-7f7a-4178-b665-d89037a6a865_spacejoy-Vpbp-7GWTSw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\91c183d3-3fb9-4b00-976b-34b445b52970_lotus-design-n-print-SnHO-Ua7QtY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\91c183d3-3fb9-4b00-976b-34b445b52970_lotus-design-n-print-SnHO-Ua7QtY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\96a2ac2c-99aa-46ce-9fbb-8da36f8ae2e7_mark-champs-Id2IIl1jOB0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\96a2ac2c-99aa-46ce-9fbb-8da36f8ae2e7_mark-champs-Id2IIl1jOB0-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\972bf3d4-e472-44cf-835b-85b802e59607_uneebo-office-design-UgYT5nkXdK4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\972bf3d4-e472-44cf-835b-85b802e59607_uneebo-office-design-UgYT5nkXdK4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\9b9f115d-b91d-41ba-a762-9d8cec8c1e2e_spacejoy-AAy5l4-oFuw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\9b9f115d-b91d-41ba-a762-9d8cec8c1e2e_spacejoy-AAy5l4-oFuw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\9eaa238e-b26b-428f-bc33-9df5c85d3bcb_kuca1.jpg",
+      "PackagePath": "staticwebassets\\Images\\9eaa238e-b26b-428f-bc33-9df5c85d3bcb_kuca1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\a0541590-296d-4aea-ac0f-0fccf58b9205_spacejoy-XM-miHibz64-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\a0541590-296d-4aea-ac0f-0fccf58b9205_spacejoy-XM-miHibz64-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\a5f290b1-ec9f-4a4c-9edc-ec2048900bfb_isaac-quesada-s34TlUTPIf4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\a5f290b1-ec9f-4a4c-9edc-ec2048900bfb_isaac-quesada-s34TlUTPIf4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\a687d2f0-825d-4433-b23e-339fdbe9b2d6_gabriel-bucataru-vMo8NKciA2Q-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\a687d2f0-825d-4433-b23e-339fdbe9b2d6_gabriel-bucataru-vMo8NKciA2Q-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\a8ad3112-c45c-445f-afc0-3980c56e8a9b_patrick-perkins-3wylDrjxH-E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\a8ad3112-c45c-445f-afc0-3980c56e8a9b_patrick-perkins-3wylDrjxH-E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\aa6a586b-ba1a-40cf-a86b-3f83ad10b16c_ashley-byrd-yzkTCP4uc9E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\aa6a586b-ba1a-40cf-a86b-3f83ad10b16c_ashley-byrd-yzkTCP4uc9E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\aad5ef46-f7ec-40c5-a98d-15ff690af2b3_collov-home-design-m3Vq2LEAkfQ-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\aad5ef46-f7ec-40c5-a98d-15ff690af2b3_collov-home-design-m3Vq2LEAkfQ-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ad28ae76-9dee-456f-a176-741992e9e4dc_ashley-byrd-yzkTCP4uc9E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ad28ae76-9dee-456f-a176-741992e9e4dc_ashley-byrd-yzkTCP4uc9E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\admin.jpg",
+      "PackagePath": "staticwebassets\\Images\\admin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\agent.jpg",
+      "PackagePath": "staticwebassets\\Images\\agent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b0458328-f8ce-4c3b-8cfb-3f134a8a738a_rasa-kasparaviciene-Xw1YuFd12nc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b0458328-f8ce-4c3b-8cfb-3f134a8a738a_rasa-kasparaviciene-Xw1YuFd12nc-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b09eaa62-4314-491b-90de-dde6e3e6ee0c_isaac-quesada-s34TlUTPIf4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b09eaa62-4314-491b-90de-dde6e3e6ee0c_isaac-quesada-s34TlUTPIf4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b12d636c-d170-45cc-ae74-16929d1ab4ee_sam.jpg",
+      "PackagePath": "staticwebassets\\Images\\b12d636c-d170-45cc-ae74-16929d1ab4ee_sam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b29d0ccd-33b3-40b1-b759-dd61d0deb0a4_lotus-design-n-print-g51F6-WYzyU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b29d0ccd-33b3-40b1-b759-dd61d0deb0a4_lotus-design-n-print-g51F6-WYzyU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b3d0d7e8-204a-4555-9cde-6c9d0b582095_spacejoy-fCfzthk-1mU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b3d0d7e8-204a-4555-9cde-6c9d0b582095_spacejoy-fCfzthk-1mU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b49d2f53-15c9-4db6-bf9b-718b29158c1a_jacques-bopp-Jg2-zDy-oUg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b49d2f53-15c9-4db6-bf9b-718b29158c1a_jacques-bopp-Jg2-zDy-oUg-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b52d6602-9f0b-4e1d-8744-33cf9c32a496_jacques-bopp-Jg2-zDy-oUg-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b52d6602-9f0b-4e1d-8744-33cf9c32a496_jacques-bopp-Jg2-zDy-oUg-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b5e340e0-38c7-4a4d-890f-1ac5e2776314_luisa-brimble-1KYprL0KevE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b5e340e0-38c7-4a4d-890f-1ac5e2776314_luisa-brimble-1KYprL0KevE-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b76b2899-ffec-4200-a8de-7940f4defd34_buildi.jpg",
+      "PackagePath": "staticwebassets\\Images\\b76b2899-ffec-4200-a8de-7940f4defd34_buildi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\b9af8b71-9b52-4185-952b-486c0d5f3c56_rob-wingate-Fd9tUmRBJzk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\b9af8b71-9b52-4185-952b-486c0d5f3c56_rob-wingate-Fd9tUmRBJzk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\bad1c288-9521-4676-ae59-b4fcff5d29c8_phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\bad1c288-9521-4676-ae59-b4fcff5d29c8_phil-hearing-IYfp2Ixe9nM-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\be3a9168-1a1f-4d51-94bc-60e240de6db4_menh.jpg",
+      "PackagePath": "staticwebassets\\Images\\be3a9168-1a1f-4d51-94bc-60e240de6db4_menh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\bed6f08a-f6f0-4d54-8996-6ca8ee7feba1_daniela-legotta-JmyZWvZQS-s-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\bed6f08a-f6f0-4d54-8996-6ca8ee7feba1_daniela-legotta-JmyZWvZQS-s-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\c6db2c71-e46f-4354-9099-74888a1184f8_robert-katzki-KLcaQxlmhtk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\c6db2c71-e46f-4354-9099-74888a1184f8_robert-katzki-KLcaQxlmhtk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\c7417066-e5f4-4eca-84a0-ee66d84dcb4f_268203701.jpg",
+      "PackagePath": "staticwebassets\\Images\\c7417066-e5f4-4eca-84a0-ee66d84dcb4f_268203701.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\c7b1ba00-d450-48cb-87ba-33a1ad7dc063_francesca-tosolini-7e78wyHpr9E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\c7b1ba00-d450-48cb-87ba-33a1ad7dc063_francesca-tosolini-7e78wyHpr9E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\c862a945-37d7-48be-a04c-6664c5a5237d_uneebo-office-design-UgYT5nkXdK4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\c862a945-37d7-48be-a04c-6664c5a5237d_uneebo-office-design-UgYT5nkXdK4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\c8cbc6e4-c0e0-4771-8521-472b0c3ab460_free-nomad-SV-Bzy7k0xM-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\c8cbc6e4-c0e0-4771-8521-472b0c3ab460_free-nomad-SV-Bzy7k0xM-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ca4d0409-e1a9-429e-8052-0569b1a8b7c2_taylor-beach-PR7h5QGXd8A-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ca4d0409-e1a9-429e-8052-0569b1a8b7c2_taylor-beach-PR7h5QGXd8A-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ca54fff9-10a5-4f13-8fbd-526238d6d44a_spacejoy-q3Qd86sfaoU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ca54fff9-10a5-4f13-8fbd-526238d6d44a_spacejoy-q3Qd86sfaoU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\caa71010-6762-4797-85e2-25c4a4e61220_spacejoy-Vpbp-7GWTSw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\caa71010-6762-4797-85e2-25c4a4e61220_spacejoy-Vpbp-7GWTSw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\cc4a14e3-77b5-405d-8b32-3ef9dc926b88_free-nomad-6NsZ3e1tMs8-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\cc4a14e3-77b5-405d-8b32-3ef9dc926b88_free-nomad-6NsZ3e1tMs8-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ccce81d9-3aa5-4273-aabb-82c5c2881fd6_clay-banks-JCIMLvIrZJI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ccce81d9-3aa5-4273-aabb-82c5c2881fd6_clay-banks-JCIMLvIrZJI-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ccf06237-9b92-475d-acd9-49eeb1a3dd79_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ccf06237-9b92-475d-acd9-49eeb1a3dd79_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\cf534bc7-bbe1-4566-8697-8e0cc205b55f_free-nomad-6NsZ3e1tMs8-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\cf534bc7-bbe1-4566-8697-8e0cc205b55f_free-nomad-6NsZ3e1tMs8-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d0285ef0-af4b-4181-ab00-8d9c2bcbb0b7_spacejoy-fCfzthk-1mU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d0285ef0-af4b-4181-ab00-8d9c2bcbb0b7_spacejoy-fCfzthk-1mU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d02b3124-f66f-42c5-8194-4228a7caaea3_zgrada.jpg",
+      "PackagePath": "staticwebassets\\Images\\d02b3124-f66f-42c5-8194-4228a7caaea3_zgrada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d0320e95-6bac-4ad0-9ab4-c793bdbd477c_screen-post-4cdRqb-UuMk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d0320e95-6bac-4ad0-9ab4-c793bdbd477c_screen-post-4cdRqb-UuMk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d084f8d4-990c-4b60-bc05-acf333f75e19_hailey-wagner-fDiajlt67WY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d084f8d4-990c-4b60-bc05-acf333f75e19_hailey-wagner-fDiajlt67WY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d0fb6987-9e44-4c16-a9d7-30a7ff664105_screen-post-4cdRqb-UuMk-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d0fb6987-9e44-4c16-a9d7-30a7ff664105_screen-post-4cdRqb-UuMk-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d1be697e-395b-4cf8-ad5f-c44eea3bfaa7_clay-banks-JCIMLvIrZJI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d1be697e-395b-4cf8-ad5f-c44eea3bfaa7_clay-banks-JCIMLvIrZJI-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d245d46a-0d1b-4414-bcac-b74d9c1950f4_copernico-p_kICQCOM4s-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d245d46a-0d1b-4414-bcac-b74d9c1950f4_copernico-p_kICQCOM4s-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d27aa7e4-f7cf-490d-a47e-3dad68943e74_spacejoy-q3Qd86sfaoU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d27aa7e4-f7cf-490d-a47e-3dad68943e74_spacejoy-q3Qd86sfaoU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d2ab0ade-4275-4837-9f0b-b0f4bf83deab_rc-cf-YgVveoH7nD4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d2ab0ade-4275-4837-9f0b-b0f4bf83deab_rc-cf-YgVveoH7nD4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d424b351-4d6f-49bc-9ac2-0817973e6531_hans-isaacson-bQTVoJHrkO0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d424b351-4d6f-49bc-9ac2-0817973e6531_hans-isaacson-bQTVoJHrkO0-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d5c71ace-f2e1-443c-9a80-abe9f81cac5d_collov-home-design-5a7URgkummE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d5c71ace-f2e1-443c-9a80-abe9f81cac5d_collov-home-design-5a7URgkummE-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d6162262-510c-4bd5-9e9d-212fb82f5a99_lotus-design-n-print-g51F6-WYzyU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d6162262-510c-4bd5-9e9d-212fb82f5a99_lotus-design-n-print-g51F6-WYzyU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d760d1c6-f770-4d5d-a83e-584629d212d1_kuca1.jpg",
+      "PackagePath": "staticwebassets\\Images\\d760d1c6-f770-4d5d-a83e-584629d212d1_kuca1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d8bcb8cc-87ba-4c33-a204-0a64503087dc_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d8bcb8cc-87ba-4c33-a204-0a64503087dc_lotus-design-n-print-UDDULE_eIBY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d9441757-4a9c-4f32-aa43-62f7f7a96360_spacejoy-fCfzthk-1mU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d9441757-4a9c-4f32-aa43-62f7f7a96360_spacejoy-fCfzthk-1mU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\d9a5d607-ae08-478a-8e41-11056c3e265c_spacejoy-XM-miHibz64-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\d9a5d607-ae08-478a-8e41-11056c3e265c_spacejoy-XM-miHibz64-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\db02f23c-5367-477f-b395-dd54d254f55e_s-o-c-i-a-l-c-u-t-EwQhB7yNGOU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\db02f23c-5367-477f-b395-dd54d254f55e_s-o-c-i-a-l-c-u-t-EwQhB7yNGOU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\db4304ae-920b-4296-b1f7-bf4283737d3d_wroclaw.jpg",
+      "PackagePath": "staticwebassets\\Images\\db4304ae-920b-4296-b1f7-bf4283737d3d_wroclaw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\db67d3c0-1aaf-4935-9d90-bde020c80526_zuza-galczynska-Nq8yf0t2TRs-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\db67d3c0-1aaf-4935-9d90-bde020c80526_zuza-galczynska-Nq8yf0t2TRs-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\dd36788d-bbd7-4ca0-b536-67efd4afb477_clay-elliot-1by_GbwEMwc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\dd36788d-bbd7-4ca0-b536-67efd4afb477_clay-elliot-1by_GbwEMwc-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\df98c239-e77e-4e12-a4cf-9c22629ad283_devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\df98c239-e77e-4e12-a4cf-9c22629ad283_devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\e1a6cd5c-c31f-42d8-ba2b-8a48125b991e_jana-heinemann-pVQM6vJg92M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\e1a6cd5c-c31f-42d8-ba2b-8a48125b991e_jana-heinemann-pVQM6vJg92M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\e2779b41-0756-49f6-8053-2d694a4c8344_francesca-tosolini-7e78wyHpr9E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\e2779b41-0756-49f6-8053-2d694a4c8344_francesca-tosolini-7e78wyHpr9E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\e3082816-1f04-41e2-bbd7-06f900ce204c_francesca-tosolini-KJFKCed0YKo-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\e3082816-1f04-41e2-bbd7-06f900ce204c_francesca-tosolini-KJFKCed0YKo-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\e4306725-f8d1-485d-93c6-ad5dd398d3c5_clay-elliot-1by_GbwEMwc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\e4306725-f8d1-485d-93c6-ad5dd398d3c5_clay-elliot-1by_GbwEMwc-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\e4ae21a2-aa7f-4e20-ae65-b37d4d03681b_howard-r-wheeler-LgJLVBEjqP4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\e4ae21a2-aa7f-4e20-ae65-b37d4d03681b_howard-r-wheeler-LgJLVBEjqP4-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\e5bbb419-046f-48d5-94fb-427042e4efa0_rune-enstad-UXFJ-6Zj27M-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\e5bbb419-046f-48d5-94fb-427042e4efa0_rune-enstad-UXFJ-6Zj27M-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\e71a53ff-4dcd-4c85-853e-2f4c2632bc4b_clay-banks-AZDyU1hXtCE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\e71a53ff-4dcd-4c85-853e-2f4c2632bc4b_clay-banks-AZDyU1hXtCE-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ea6a922a-751d-4626-ba33-0b9c48b75357_kyoshi-reyes-g_P3PajXIog-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ea6a922a-751d-4626-ba33-0b9c48b75357_kyoshi-reyes-g_P3PajXIog-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ecae1f14-ca9b-443e-8469-859e3f18cff1_randm.jpg",
+      "PackagePath": "staticwebassets\\Images\\ecae1f14-ca9b-443e-8469-859e3f18cff1_randm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ed164de1-e114-444b-b05d-7beb2086cb8b_lotus-design-n-print-zLT3VqWEgOQ-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ed164de1-e114-444b-b05d-7beb2086cb8b_lotus-design-n-print-zLT3VqWEgOQ-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ed64710a-c5a2-4eb8-939e-904356cc23be_pankaj-shah-1ff_i7jO-4g-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ed64710a-c5a2-4eb8-939e-904356cc23be_pankaj-shah-1ff_i7jO-4g-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ee63644f-c7be-41d8-936f-caa79902b393_mark-champs-Id2IIl1jOB0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ee63644f-c7be-41d8-936f-caa79902b393_mark-champs-Id2IIl1jOB0-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\efe494ca-74a3-4dbc-ac79-b8a84621eac4_francesca-tosolini-7e78wyHpr9E-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\efe494ca-74a3-4dbc-ac79-b8a84621eac4_francesca-tosolini-7e78wyHpr9E-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\f26abc57-756a-476f-b8f4-95cf668d347d_clay-banks-AZDyU1hXtCE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\f26abc57-756a-476f-b8f4-95cf668d347d_clay-banks-AZDyU1hXtCE-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\f7670e73-09a0-4fc3-95fb-b642d97bba5d_matthew-HBjsSlRHXnY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\f7670e73-09a0-4fc3-95fb-b642d97bba5d_matthew-HBjsSlRHXnY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\fa573618-3dac-49b7-9a25-cd46599a912d_clay-elliot-1by_GbwEMwc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\fa573618-3dac-49b7-9a25-cd46599a912d_clay-elliot-1by_GbwEMwc-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\fb1bbb0a-cabe-43b9-a07a-e2e1571f82e3_hailey-wagner-fDiajlt67WY-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\fb1bbb0a-cabe-43b9-a07a-e2e1571f82e3_hailey-wagner-fDiajlt67WY-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\fb35798e-252e-4dcd-964f-2d0dd3cf3753_mark-champs-Id2IIl1jOB0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\fb35798e-252e-4dcd-964f-2d0dd3cf3753_mark-champs-Id2IIl1jOB0-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\fd9a9891-d669-4a91-b08d-38cb81d9a3ee_spacejoy-q3Qd86sfaoU-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\fd9a9891-d669-4a91-b08d-38cb81d9a3ee_spacejoy-q3Qd86sfaoU-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\fe1a8888-7239-4d09-b79c-eff28137b100_rural-explorer-LPI-Un6Ch4I-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\fe1a8888-7239-4d09-b79c-eff28137b100_rural-explorer-LPI-Un6Ch4I-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\ff18dac9-9ec7-4535-abe7-e4c8298fa7e9_spacejoy-XM-miHibz64-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\ff18dac9-9ec7-4535-abe7-e4c8298fa7e9_spacejoy-XM-miHibz64-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\menadzer.jpg",
+      "PackagePath": "staticwebassets\\Images\\menadzer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\Images\\noimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Images\\notfound.png",
+      "PackagePath": "staticwebassets\\Images\\notfound.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\Rezervacija.html",
+      "PackagePath": "staticwebassets\\Rezervacija.html"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\confirmation.css",
+      "PackagePath": "staticwebassets\\css\\confirmation.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\mainStyle.css",
+      "PackagePath": "staticwebassets\\css\\mainStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\nekretnina.css",
+      "PackagePath": "staticwebassets\\css\\nekretnina.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\nekretninaIndex.css",
+      "PackagePath": "staticwebassets\\css\\nekretninaIndex.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\pagination.css",
+      "PackagePath": "staticwebassets\\css\\pagination.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\sidebar.css",
+      "PackagePath": "staticwebassets\\css\\sidebar.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\statistikaAgenata.css",
+      "PackagePath": "staticwebassets\\css\\statistikaAgenata.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\statistikaAgencije.css",
+      "PackagePath": "staticwebassets\\css\\statistikaAgencije.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\sweetalert.css",
+      "PackagePath": "staticwebassets\\css\\sweetalert.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\toastr.css",
+      "PackagePath": "staticwebassets\\css\\toastr.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\css\\zaposleni.css",
+      "PackagePath": "staticwebassets\\css\\zaposleni.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\chartovi.js",
+      "PackagePath": "staticwebassets\\js\\chartovi.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\delete.js",
+      "PackagePath": "staticwebassets\\js\\delete.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\sidebar.js",
+      "PackagePath": "staticwebassets\\js\\sidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\js\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\sweetalert1.js",
+      "PackagePath": "staticwebassets\\js\\sweetalert1.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\js\\sweetalert2.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\toastr.js",
+      "PackagePath": "staticwebassets\\js\\toastr.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\toastr1.js",
+      "PackagePath": "staticwebassets\\js\\toastr1.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\js\\toastrjs.js",
+      "PackagePath": "staticwebassets\\js\\toastrjs.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\0efef126-bdfc-4f14-93d7-a221e05f0e7d_Goran Milivojevic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\0efef126-bdfc-4f14-93d7-a221e05f0e7d_Goran Milivojevic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\0fe9891b-1f72-477d-9d46-9f889a7ff97f_Milija Stankic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\0fe9891b-1f72-477d-9d46-9f889a7ff97f_Milija Stankic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\19b62785-7bcf-41e3-828f-5d5c63e64328_Mima Peric.pdf",
+      "PackagePath": "staticwebassets\\pdf\\19b62785-7bcf-41e3-828f-5d5c63e64328_Mima Peric.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\1ccf467c-20b7-4ecb-a212-f639029003f6_Milutin Starcevic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\1ccf467c-20b7-4ecb-a212-f639029003f6_Milutin Starcevic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\274f3d6e-47ce-4909-9515-0e514c887e41_Milorad Jaksic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\274f3d6e-47ce-4909-9515-0e514c887e41_Milorad Jaksic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\3c7a9390-f288-4507-8586-5b1b695c94f6_Emilija Radicevic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\3c7a9390-f288-4507-8586-5b1b695c94f6_Emilija Radicevic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\4baaaba1-7f12-45e9-8c1f-7cf47aff5301_Jelena Peric.pdf",
+      "PackagePath": "staticwebassets\\pdf\\4baaaba1-7f12-45e9-8c1f-7cf47aff5301_Jelena Peric.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\53101201-9ee6-41a6-92ba-2b2570babc12_Tanja Jankovic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\53101201-9ee6-41a6-92ba-2b2570babc12_Tanja Jankovic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\60a2c06a-3f2c-46ec-b97f-efd3f1db29c9_Aleksa Glukic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\60a2c06a-3f2c-46ec-b97f-efd3f1db29c9_Aleksa Glukic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\67508be6-56ca-41b5-99b1-34d81e3555fd_Borko Malinic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\67508be6-56ca-41b5-99b1-34d81e3555fd_Borko Malinic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\6d38cb4c-fcf1-44c1-8a58-350652d0ab2e_Marija Culibrk.pdf",
+      "PackagePath": "staticwebassets\\pdf\\6d38cb4c-fcf1-44c1-8a58-350652d0ab2e_Marija Culibrk.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\7b35c9a8-78b6-4a8d-86ed-f1e87109bdd0_Ana Mikic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\7b35c9a8-78b6-4a8d-86ed-f1e87109bdd0_Ana Mikic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\81314e0c-5772-4791-9c29-81d569b40891_Jovan Lukic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\81314e0c-5772-4791-9c29-81d569b40891_Jovan Lukic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\963c0601-5a45-4a9e-81d9-992dceb20602_Radica Zarkic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\963c0601-5a45-4a9e-81d9-992dceb20602_Radica Zarkic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\997e8925-ac9e-4c02-a0fd-99317d0b6448_Veljko Gligorijevic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\997e8925-ac9e-4c02-a0fd-99317d0b6448_Veljko Gligorijevic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\b0b7ccdc-524c-456c-9194-cf81cf428d8c_Filip Lazovic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\b0b7ccdc-524c-456c-9194-cf81cf428d8c_Filip Lazovic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\b58d2898-3cf6-4425-808e-0c77b8298024_Dragomir Bubalo.pdf",
+      "PackagePath": "staticwebassets\\pdf\\b58d2898-3cf6-4425-808e-0c77b8298024_Dragomir Bubalo.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\b73c1606-7dc5-45c6-8a15-f290063d6e6b_Srdjan Petkovic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\b73c1606-7dc5-45c6-8a15-f290063d6e6b_Srdjan Petkovic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\b7ccfc56-4f11-401f-a200-6ac5f6bb21bc_Luka Mihaljcic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\b7ccfc56-4f11-401f-a200-6ac5f6bb21bc_Luka Mihaljcic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\bb3c6fd7-246f-4d9e-998a-166cc5f6309f_Miroslav Susnjic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\bb3c6fd7-246f-4d9e-998a-166cc5f6309f_Miroslav Susnjic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\bf7d3aae-1847-4820-9964-93bc83e04aa3_Nadja Todorovic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\bf7d3aae-1847-4820-9964-93bc83e04aa3_Nadja Todorovic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\c8482076-e77e-40e2-a17d-d0d10ca1f8f9_Milica Lazic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\c8482076-e77e-40e2-a17d-d0d10ca1f8f9_Milica Lazic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\d2c88bcf-aebe-44a6-94a1-3a86c350c943_Anja Gordic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\d2c88bcf-aebe-44a6-94a1-3a86c350c943_Anja Gordic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\pdf\\e4238dab-e0af-4987-b962-4db2cdffe89d_Sreten Jakovljevic.pdf",
+      "PackagePath": "staticwebassets\\pdf\\e4238dab-e0af-4987-b962-4db2cdffe89d_Sreten Jakovljevic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\barcelona.jpg",
+      "PackagePath": "staticwebassets\\slike\\barcelona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\buildi.jpg",
+      "PackagePath": "staticwebassets\\slike\\buildi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\cityscape.jpg",
+      "PackagePath": "staticwebassets\\slike\\cityscape.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\cityscape1.jpg",
+      "PackagePath": "staticwebassets\\slike\\cityscape1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\kuca1.jpg",
+      "PackagePath": "staticwebassets\\slike\\kuca1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\kuca2.jpg",
+      "PackagePath": "staticwebassets\\slike\\kuca2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\magla.jpg",
+      "PackagePath": "staticwebassets\\slike\\magla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\magla1.jpg",
+      "PackagePath": "staticwebassets\\slike\\magla1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\menh.jpg",
+      "PackagePath": "staticwebassets\\slike\\menh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\prozor.jpg",
+      "PackagePath": "staticwebassets\\slike\\prozor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\randm.jpg",
+      "PackagePath": "staticwebassets\\slike\\randm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\wroclaw.jpg",
+      "PackagePath": "staticwebassets\\slike\\wroclaw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\slike\\zgrada.jpg",
+      "PackagePath": "staticwebassets\\slike\\zgrada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\AgencijaZaNekretnine\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AgencijaZaNekretnine.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AgencijaZaNekretnine.props",
+      "PackagePath": "build\\AgencijaZaNekretnine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AgencijaZaNekretnine.props",
+      "PackagePath": "buildMultiTargeting\\AgencijaZaNekretnine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AgencijaZaNekretnine.props",
+      "PackagePath": "buildTransitive\\AgencijaZaNekretnine.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

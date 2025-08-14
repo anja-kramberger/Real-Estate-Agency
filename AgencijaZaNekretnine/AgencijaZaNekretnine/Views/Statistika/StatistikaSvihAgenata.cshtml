@@ -1,0 +1,229 @@
+﻿@model IEnumerable<AgencijaZaNekretnine.Models.UserBO>
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+
+
+}
+<h2>Statistika Agenata</h2>
+<div class="row">
+       <div class="col-md-6">
+            <div class="card">
+                <p>Zarada po agentu</p>
+                <canvas id="zaradaChart" style="max-height:300px;"></canvas>
+           </div>
+       </div>
+       <div class="col-md-6">
+            <div class="card">
+                 <p>Tip nekretnine prodat po agentu</p>
+                 <canvas id="nekretnineChart" style="max-height:300px;"></canvas>
+            </div>
+       </div>
+
+</div>
+
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="naslov">
+                    <i class="fa-solid fa-circle-user" style="height:60px;width: 60px;margin-top:20px;color:#0e2238;"></i>
+                    <h4>Agenti</h4>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <div class="agent">
+                    <button type="button" id="btnAgent" data-tipo-vino="@item.Id" class="btnPost">
+                            @item.FirstName @item.LastName
+                        </button>
+                    <input type="hidden" class="tipoVino" id="IdAgenta" value="@item.Id" />
+                    </div>
+                    
+                }
+            </div>
+        
+        </div>
+        <div id="prikaz" class="col-md-9" style="display:none;">
+            <div class="card" id="osvezi">
+                <canvas id="agentPoMesecima" style="max-height:400px;"></canvas>
+            </div>
+            <div class="card">
+                <div class="row" id="red">
+                    <div class="col-md-6" style="text-align:center;">
+                        <i class="fa-solid fa-money-bill" style="height:30px;margin-right: 25px;color:#0e2238;height:100%;"></i>
+                    <input id="zarada" style="border: 0 !important;font-size:1.3em;" disabled />
+                    </div>
+                    <div class="col-md-6" style="text-align:center;">
+                        <i class="fa-solid fa-house-chimney" style="height: 100%;margin-right: 35px;color:#0e2238;"></i>
+                    <input id="brNekretnina" style="border: 0 !important;font-size:1.3em;" disabled />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+@section Styles{
+    <link rel="stylesheet" href="@Url.Content("/css/statistikaAgenata.css")" />
+}
+@section Scripts{
+    <script src="~/js/chart.js" type="text/javascript"></script>
+    <script src="~/js/chartovi.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $(".btnPost").click(function() {
+                $("#osvezi").load(" #osvezi");
+                var item1 = $(event.target).data('tipo-vino');
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("AgentPoMesecima", "Statistika")',
+                    contextType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: { Id: item1 },
+                    success: OnSuccessResult,
+                    error: OnError
+                });
+                function OnSuccessResult(data) {
+                    document.getElementById('prikaz').style.display = "block";
+                    $("#zarada").val(parseFloat(data[2]).toFixed(2) + " €");
+                    $("#brNekretnina").val(data[3]);
+                    const barChart = document.getElementById("agentPoMesecima");
+                    var _data = data;
+                    var _labels = _data[0];
+                    var _chartData = _data[1];
+                    var colors = ["Orange"];
+
+                    new Chart("agentPoMesecima",
+                        {
+                            type: 'bar',
+                            data: {
+                                labels: _labels,
+                                datasets: [{
+                                    backgroundColor: colors,
+                                    data: _chartData,
+                                    borderWidth: 1,
+                                }]
+                            },
+                            options: {
+                                layout: {
+                                    responsive: true,
+                                    maintainAspectRatio: true,
+                                }
+                            }
+                        });
+                }
+                function OnError(err) {
+                    console.log("Greska");
+                }
+            });
+       });
+
+        
+
+        $(document).ready(function () { //sveNekretnine
+
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("ZaradaPoAgentu", "Statistika")',
+                data: "",
+                contextType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessResult,
+                error: OnError
+            });
+
+            function OnSuccessResult(data) {
+
+                var _data = data;
+                var _chartLabels = _data[0];
+                var _chartData = _data[1];
+                var barColor = data[2];
+                new Chart("zaradaChart",
+                    {
+                        type: "pie",
+                        data: {
+                            labels: _chartLabels,
+                            datasets: [{
+                                data: _chartData,
+                                backgroundColor: barColor
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            plugins: {
+                                labels: {
+                                    render: 'percentage',
+                                    fontColor: ['white'],
+                                    precision: 2
+                                }
+                            },
+                        }
+
+                    });
+            }
+            function OnError(err) {
+                console.log("Greska");
+            }
+
+        });
+
+        $(document).ready(function () { //sveNekretnine
+
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("NekretninePoAgentu", "Statistika")',
+                data: "",
+                contextType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessResult,
+                error: OnError
+            });
+
+            function OnSuccessResult(data) {
+
+                var _data = data;
+                var _chartLabels = _data[0];
+                var _chartData = _data[1];
+                var barColor = data[2];
+                new Chart("nekretnineChart",
+                    {
+                        type: "doughnut",
+                        data: {
+                            labels: _chartLabels,
+                            datasets: [{
+                                data: _chartData,
+                                backgroundColor: barColor
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            plugins: {
+                                labels: {
+                                    render: 'percentage',
+                                    fontColor: ['white'],
+                                    precision: 2
+                                }
+                            },
+                        }
+
+                    });
+            }
+            function OnError(err) {
+                console.log("Greska");
+            }
+
+        });
+        
+    </script>
+    @{
+
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

@@ -1,0 +1,184 @@
+﻿@{
+    User.IsInRole("Agent");
+    ViewData["Title"] = "Dashboard";
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="row" style="max-height:70%; width:100%;">
+        <div col-md-6 style="height:100%;  max-width:50%; ">
+            <div class="card" style="text-align:center; max-height:50%; padding-top:27%;padding-bottom:27%; margin-bottom: 20px;">
+                <h2>Dobrodošli @ViewBag.Ime!</h2>
+            </div>
+            <div class="plocice" style="height:100%; ">
+                <div class="row">
+                    <div class="col-md-6" style="height:100%; ">
+                        <div class="card" style="text-align:center; padding:30px 10px;box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.70);background-color:#FFEE58;">
+                            <h4 style="margin-bottom:30px;">Zaposleni</h4>
+                            <div class="row">
+                                <div class="col-md-6" style="margin-bottom: 20px;">
+                                    Ukupno:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.Zaposleni
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Na čekanju:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.Cekanje
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="height:100%; ">
+                        <div class="card" style="text-align:center;padding:30px 10px;box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.70);background-color:#B39DDB;">
+                            <h4 style="margin-bottom: 30px;">Preduzimači</h4>
+                            <div class="row">
+                                <div class="col-md-6" style="margin-bottom: 20px;">
+                                    Ukupno:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.Preduzimaci
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Nedovršen:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.PreduzimaciNedovrseni
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div col-md-6 style="max-height:100%; max-width:50%;">
+            <img src="~/Images/admin.jpg" style="height:100%; width:100%; object-fit:contain;" />
+        </div>
+    </div>
+}
+@if (User.IsInRole("Menadzer"))
+{
+    <div class="row" style="max-height:70%; width:100%;">
+        <div col-md-6 style="height:100%;  max-width:50%; ">
+            <div class="card" style="text-align:center; max-height:50%; padding-top:27%;padding-bottom:27%; margin-bottom: 20px;">
+                <h2>Dobrodošli @ViewBag.Ime!</h2>
+            </div>
+            <div class="plocice" style="height:100%; ">
+                <div class="row">
+                    <div class="col-md-6" style="height:100%; ">
+                        <div class="card" style="text-align:center; padding:30px 10px;box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.70);background-color:#FFEE58;">
+                            <h4 style="margin-bottom:30px;">Nekretnine</h4>
+                            <div class="row">
+                                <div class="col-md-6" style="margin-bottom: 20px;">
+                                    Ukupno:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.Nekretnine
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Prodato:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.NekretnineProdate
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="height:100%; ">
+                        <div class="card" style="text-align:center;padding:30px 10px;box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.70);background-color:#B39DDB;">
+                            <h4 style="margin-bottom: 30px;">Agenti</h4>
+                            <div class="row">
+                                <div class="col-md-6" style="margin-bottom: 20px;">
+                                    Ukupno:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.Agenti
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Najuspešniji:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.NajAgent
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div col-md-6 style="max-height:100%; max-width:50%;">
+            <img src="~/Images/menadzer.jpg" style="height:100%; width:100%; object-fit:contain;" />
+        </div>
+    </div>
+}
+@if (User.IsInRole("Agent"))
+{
+    <div class="row" style="max-height:70%; width:100%;">
+        <div col-md-6 style="height:100%;  max-width:50%; ">
+            <div class="card" style="text-align:center; max-height:50%; padding-top:27%;padding-bottom:27%; margin-bottom: 20px;">
+                <h2>Dobrodošli @ViewBag.Ime!</h2>
+            </div>
+            <div class="plocice" style="height:100%; ">
+                <div class="row">
+                    <div class="col-md-6" style="height:100%; ">
+                        <div class="card" style="text-align:center; padding:30px 10px;box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.70);background-color:#FFEE58;">
+                            <h4 style="margin-bottom:30px;">Nekretnine</h4>
+                            <div class="row">
+                                <div class="col-md-6" style="margin-bottom: 20px;">
+                                    Ukupno: 
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.Nekretnine
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Prodato:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.NekretninaAgent
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="height:100%; ">
+                        <div class="card" style="text-align:center;padding:30px 10px;box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.70);background-color:#B39DDB;">
+                            <h4 style="margin-bottom: 30px;">Ugovori</h4>
+                            <div class="row">
+                                <div class="col-md-6" style="margin-bottom: 20px;">
+                                    Ukupno:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.Ugovor
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Sklopljeno:
+                                </div>
+                                <div class="col-md-6">
+                                    @ViewBag.UgovoriNedovrseni
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div col-md-6 style="max-height:100%; max-width:50%;">
+            <img src="~/Images/agent.jpg" style="height:100%; width:100%; object-fit:contain;" />
+        </div>
+    </div>
+}
+
+

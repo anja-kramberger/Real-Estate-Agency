@@ -1,0 +1,34 @@
+﻿
+.pagination ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    
+}
+
+.pagination li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.pagination li:last-child {
+    border-right: none;
+}
+
+.pagination li a, .pagination li span {
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 4px 12px;
+    text-decoration: none;
+}
+
+.pagination li a:hover:not(.active) {
+   background-color: #ed890e;
+}
+
+.pagination .active {
+    background-color: #ed890e;
+}

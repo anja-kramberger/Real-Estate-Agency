@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Hosting
+@using System.IO
+@inject IWebHostEnvironment environment
+@{
+    Layout = "_Layout";
+}
+
+<h2>Rezervacija</h2>
+<div class="rezervacija">
+    @Html.Raw(File.ReadAllText(System.IO.Path.Combine(environment.ContentRootPath, "wwwroot/Rezervacija.html")))
+</div>

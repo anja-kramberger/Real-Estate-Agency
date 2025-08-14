@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Naslov 1</title>
+    <meta charset="utf-8">
+    <script src="https://cdn.dhtmlx.com/scheduler/edge/dhtmlxscheduler.js"></script>
+    <link rel="stylesheet" href="https://cdn.dhtmlx.com/scheduler/edge/dhtmlxscheduler.css" type="text/css" charset="utf-8">
+    <style>
+        html, body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="scheduler_here" class="dhx_cal_container" style='width:100%; height:100vh;'>
+        <div class="dhx_cal_navline">
+            <div class="dhx_cal_prev_button">&nbsp;</div>
+            <div class="dhx_cal_next_button">&nbsp;</div>
+            <div class="dhx_cal_today_button"></div>
+            <div class="dhx_cal_date" align="center"></div>
+            <div class="dhx_cal_tab" name="day_tab"></div>
+            <div class="dhx_cal_tab" name="week_tab"></div>
+            <div class="dhx_cal_tab" name="month_tab"></div>
+        </div>
+        <div class="dhx_cal_header"></div>
+        <div class="dhx_cal_data"></div>
+    </div>
+    <script>
+        //const s = 1;
+
+        scheduler.i18n.setLocale({
+            date: {
+                month_full: ["Januar", "Februar", "Mart", "April", "Maj", "Jun",
+                    "Jul", "Avgust", "Septembar", "Oktobar", "Novembar", "Decembar"],
+                month_short: ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun",
+                    "Jul", "Avg", "Sep", "Okt", "Nov", "Dec"],
+                day_full: ["Nedelja", "Ponedeljak", "Utorak", "Sreda", "Četvrtak",
+                    "Petak", "Subota"],
+                day_short: ["Ned", "Pon", "Uto", "Sre", "Čet", "Pet", "Sub"]
+            },
+            labels: {
+                dhx_cal_today_button: "Danas",
+                day_tab: "Dan",
+                week_tab: "Nedelja",
+                month_tab: "Mesec",
+                new_event: "Nova rezervacija",
+                icon_save: "Save",
+                icon_cancel: "Cancel",
+                icon_details: "Details",
+                icon_edit: "Edit",
+                icon_delete: "Delete",
+                confirm_closing: "",// Your changes will be lost, are your sure?
+                confirm_deleting: "Da li ste sigurni da želite da obrišete?",
+                section_description: "Opis",
+                section_time: "Vreme",
+                full_day: "Ceo dan",
+                /*agenda view extension*/
+                agenda_tab: "Agenda",
+                date: "Datum",
+                description: "Opis",
+
+                //year view extension*/
+                year_tab: "Godina",
+
+                /* week agenda extension */
+                week_agenda_tab: "Agenda",
+
+                /*grid view extension*/
+                grid_tab: "Grid",
+
+                /*touch tooltip*/
+                drag_to_create: "Drag to create",
+                drag_to_move: "Drag to move",
+
+                /* dhtmlx message default buttons */
+                message_ok: "OK",
+                message_cancel: "Cancel",
+
+                /* wai aria labels for non-text controls */
+                next: "Sledeći",
+                prev: "Prethodni",
+                year: "Godina",
+                month: "Mesec",
+                day: "Dan",
+                hour: "Sat",
+                minute: "Minut"
+            }
+        });
+
+        scheduler.config.details_on_dblclick = true;
+        scheduler.config.date_format = "%Y-%m-%d %H:%i";
+        scheduler.config.first_hour = 7;
+        scheduler.config.last_hour = 19;
+
+        scheduler.init('scheduler_here', new Date(), "week");
+
+        //scheduler.setLoadMode("day");
+        // load data from backend
+        scheduler.load("/api/rezervacija", "json");
+        // connect backend to scheduler
+        const dp = scheduler.createDataProcessor({
+            url: "/api/rezervacija",
+            mode: "REST"
+        });
+    </script>
+</body>
+</html>

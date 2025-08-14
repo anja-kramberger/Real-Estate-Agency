@@ -1,0 +1,174 @@
+﻿@model AgencijaZaNekretnine.Models.NekretninaBO
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2 >Edit</h2>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body ">
+                <div class="row">
+                    <form asp-action="Edit" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" class="form-control" />
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6">
+
+                                    <label asp-for="Adresa" class="control-label"></label>
+                                    <input asp-for="Adresa" class="form-control" />
+                                    <span asp-validation-for="Adresa" class="text-danger"></span>
+
+                                </div>
+                                <div class="col-md-6">
+
+                                    <label asp-for="Cena" class="control-label"></label>
+                                    <input asp-for="Cena" class="form-control" />
+                                    <span asp-validation-for="Cena" class="text-danger"></span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="Kvadratura" class="control-label"></label>
+                                        <input asp-for="Kvadratura" class="form-control" />
+                                        <span asp-validation-for="Kvadratura" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="BrojSoba" class="control-label"></label>
+                                        <input asp-for="BrojSoba" class="form-control" />
+                                        <span asp-validation-for="BrojSoba" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label asp-for="Opis" class="control-label"></label>
+                                    <textarea asp-for="Opis" rows="6" class="form-control" ></textarea>
+                                    <span asp-validation-for="Opis" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label asp-for="Tip.Id" class="control-label">Tip</label>
+                                    <select asp-for="Tip.Id"
+                                            asp-items="@(new SelectList(ViewBag.Tipovi, "Id", "Naziv"))">
+                                        <option disabled selected>Odaberi Tip</option>
+                                    </select>
+                                    <span asp-validation-for="Tip.Id" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-4">
+                                    <label asp-for="Preduzimac.IDPreduzimaca" class="control-label">Preduzimac</label>
+                                    <select asp-for="Preduzimac.IDPreduzimaca"
+                                            asp-items="@(new SelectList(ViewBag.Preduzimaci, "IDPreduzimaca", "Naziv"))">
+                                        <option disabled selected>Odaberi preduzimača</option>
+                                    </select>
+                                    <span asp-validation-for="Preduzimac.IDPreduzimaca" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-4">
+                                    <label asp-for="Agent.Id" class="control-label">Agent</label>
+                                    <select asp-for="Agent.Id"
+                                            asp-items="@(new SelectList(ViewBag.Agenti, "Id", "FirstName"))">
+                                        <option disabled selected>Odaberi Agenta</option>
+                                    </select>
+                                    <span asp-validation-for="Agent.Id" class="text-danger"></span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div>
+                            <input type="hidden" value="Agent.Id" name="agent" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                    <label class="control-label">Naslovna Slika</label>
+                                    <input type="file" asp-for="File" class="form-control" />
+                                    <span asp-validation-for="File" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div>
+                            @if (Model.Slika != null)
+                            {
+                                <div class="row p-2">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="card" style="padding-bottom: 0 !important;">
+                                            <img src="~/Images/@Model.Slika" class="rounded img-fluid card-img-top rounded" width="150" height="100" />
+                                            <a class="btn btn-red" asp-action="DeleteHomeImg" asp-route-Id="@Model.Id"><i class="fa-solid fa-xmark"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <label class="control-label">Slike</label>
+                                <input type="file" asp-for="Images" multiple class="form-control" />
+                                <span asp-validation-for="Images" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row p-2">
+                                @foreach (var item in Model.ImgUrls)
+                                {
+                                    <div class="col-lg-3 col-md-4 col-sm-12 pb-2">
+                                        <div class="card" style="padding-bottom: 0 !important;">
+                                            <img src="~/Images/@item.UrlSlike" class="rounded img-fluid card-img-top rounded" width="150" height="100" />
+                                            <a class="btn btn-red" asp-action="DeleteImgs" asp-route-Id="@Model.Id"><i class="fa-solid fa-xmark"></i></a>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row" style="text-align:center;">
+                                <div class="col-md-6">
+                                    <input type="submit" value="Sacuvaj izmene" class="btn btn-warning btn-sm" />
+                                </div>
+                                <div class="col-md-6">
+                                    <a type="button" class="btn btn-primary btn-sm" asp-action="Index" style="height:45px !important; text-align:center; padding-top: 10px;">Vrati se nazad</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles{
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link href="~/css/nekretnina.css" rel="stylesheet" />
+}
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+  
+<script>
+    function reloadPage() {
+        if(@ViewBag.Refresh != null){
+            window.location.reload();
+        }
+        
+    }
+</script>
+

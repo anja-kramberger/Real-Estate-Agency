@@ -1,0 +1,149 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Statistika Agencije</h2>
+
+
+<div class="card" id="barStatistika">
+        <div class="row" >
+            <div class="col-md-12">
+            <canvas id="myChart" style="max-width:100%;max-height:450px"></canvas> @*;*@
+            </div>
+        </div>
+</div>
+<div class="row" id="plocice">
+    <div class="col-md-3">
+        <p id="broj">@ViewBag.Total €</p>
+        <p id="naslov">Ukupna zarada </p>
+    </div>
+    <div class="col-md-3">
+        <p id="broj">@ViewBag.Agenti</p>
+        <p id="naslov">Broj agenata </p>
+    </div>
+    <div class="col-md-3">
+        <p id="broj">@ViewBag.Nekretnine</p>
+        <p id="naslov">Broj nekretnina </p>
+    </div>
+    <div class="col-md-3">
+        <p id="broj">@ViewBag.Prodato %</p>
+        <p id="naslov">Prodato nekretnina </p>
+    </div>
+</div>
+<div class="card" id="pieStatistika">
+    <div class="row" >
+        <div class="col-md-7" style="padding:5px 0 10px 60px;">
+            <canvas id="myChartic" style="max-width:450px;max-height:350px;"></canvas>
+        </div>
+        <div class="col-md-5">
+            <h4>Tip nekretnine</h4>
+            <p id="nekretnine">Stan: @ViewBag.Stan %</p>
+            <p id="nekretnine">Kuca: @ViewBag.Kuca %</p>
+            <p id="nekretnine">Plac: @ViewBag.Plac %</p>
+            <p id="nekretnine">Poslovni prostor: @ViewBag.PProstor %</p>
+        </div>
+    </div>
+</div>
+
+
+@*<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>*@
+
+
+@section Styles{
+    <link rel="stylesheet" href="@Url.Content("/css/statistikaAgencije.css")" />
+}
+@section Scripts{
+    <script src="~/js/chart.js" type="text/javascript"></script>
+    <script src="~/js/chartovi.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("GetSalesData", "Statistika")',
+                data: "",
+                contextType: "application/json; charset=utf8",
+                dataType: "json",
+                success: OnSuccess,
+            });
+            function OnSuccess(data) {
+                const barChart = document.getElementById("myChart");
+                var _data = data;
+                var _labels = _data[0];
+                var _chartData = _data[1];
+                var colors = ['#ed890e'];
+
+                new Chart("myChart",
+                {
+                    type: 'bar',
+                    data: {
+                        labels: _labels,
+                        datasets: [{
+                            label: "Zarada po mesecima",
+                            backgroundColor: colors,
+                            data: _chartData,
+                            borderWidth: 1,
+                        }]
+                    },
+                    options: {
+                        layout: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                        }  
+                    }
+                });
+            }
+        });
+
+        $(document).ready(function () { //sveNekretnine
+
+            $.ajax({
+                type: "POST",
+                url: "/Statistika/GetSalesDataa",
+                data: "",
+                contextType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnSuccessResult,
+                error: OnError
+            });
+
+            function OnSuccessResult(data) {
+
+                var _data = data;
+                var _chartLabels = _data[0];
+                var _chartData = _data[1];
+                var barColor = ["#F44336", "#3F51B5", "#4CAF50", "#FFEB3B"]; 
+                new Chart("myChartic",
+                    {
+                        type: "pie",
+                        data: {
+                            labels: _chartLabels,
+                            datasets: [{
+                                data: _chartData,
+                                backgroundColor: barColor
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            plugins: {
+                                labels: {
+                                    render: 'percentage',
+                                    fontColor: ['white'],
+                                    precision: 2
+                                }
+                            },
+                        }
+
+                    });
+            }
+            function OnError(err) {
+                console.log("Greska");
+            }
+
+        });
+    </script>
+    @{
+
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

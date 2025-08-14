@@ -1,0 +1,206 @@
+﻿@model IPagedList<AgencijaZaNekretnine.Models.NekretninaBO>
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+
+@{
+    ViewData["Title"] = "Index";
+
+    var controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+
+}
+
+<div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Lista Nekretnina</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4" style="margin-bottom:20px;">
+            <div class="card" style="padding: 15px 15px;">
+                <div class="card-body" style="padding: 10px 15px;">
+                    @if (User.IsInRole("Menadzer"))
+                    {
+                        <div class="row" style="margin-bottom:30px;">
+                            <p>
+                                <a type="button" class="btn btn-success" asp-action="Create">Unesi novu nekretninu</a>
+                            </p>
+                        </div>
+                    }
+                    
+                    <form asp-action="Index">
+                        <div class="form-group">
+                            <label>Pretraga</label>
+                            <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" /><br>
+                            <input type="hidden" name="searchTip" value="@ViewBag.CurrentTip" />
+                            <input type="hidden" name="searchStatus" value="@ViewBag.CurrentStatus" />
+                        </div>
+                        <div class="form-group">
+                            @Html.DropDownList("Tipovi",new SelectList(ViewBag.Tipovi, "Id", "Naziv"),
+                            "Selektuj Tip",new{@class = "form-control"})
+                        </div>
+                        <div class="form-group">
+                            @Html.DropDownList("Statusi",new SelectList(ViewBag.Statusi, "Id", "Naziv"),
+                            "Selektuj Status",new{@class = "form-control"})
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <label>Cena</label>
+                            </div>
+                            <div class="row" style="padding: 0 15px;">
+                                
+                                    <input type="text" name="cenaOd" placeholder="Od" style="width:150px; margin-right:10px;"/><br>
+                                
+                                    <input type="text" name="cenaDo" placeholder="Do" style="width:150px;" /><br>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Pretraga" class="btn btn-outline-warning btn-sm" />
+                            <a type="button" class="btn btn-outline-warning btn-sm" asp-action="Index">Prikazi sve</a>
+                        </div>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8" style="margin-bottom: 15px;">
+            @if (!Model.Any())
+            {
+                <div class="card" style="height:473px;">
+                    <div style="text-align:center;">
+                        <div>
+                            <img src="~/Images/notfound.png" style="height:50%; width: 50%;object-fit:cover;" />
+                        </div>
+                        <h3>Nema nekretnina.</h3>
+                    </div>
+                </div>
+            }
+            else
+            {
+            @foreach (var item in Model) {
+                    <div class="card" style="margin-bottom: 15px; ">
+                        <div class="row" >
+                            
+                            @if (item.Status.Naziv == "Dostupno")
+                            {
+                                <div class="col-md-4">
+                                    @if (item.Slika != null)
+                                    {
+
+                                        <img src="~/Images/@item.Slika" style="height:200px; width: 100%;object-fit:cover;" />
+                                    }
+                                    else
+                                    {
+                                        <img src="/Images/noimage.jpg" style="height:200px; width: 100%; object-fit:cover;" />
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="col-md-4">
+                                    
+                                    @if (item.Slika != null)
+                                    {
+                                        <div class="box">
+                                            <img src="~/Images/@item.Slika" style="height:200px; width: 100%;object-fit:cover;" />
+                                            <div class="ribbon">Prodato</div>
+                                        </div>
+                                        
+                                    }
+                                    else
+                                    {   
+                                        <div class="box">
+                                            <img src="/Images/noimage.jpg" style="height:200px; width: 100%; object-fit:cover;" />
+                                            <div class="ribbon">Prodato</div>
+                                        </div>
+                                        
+                                    }
+                                </div>
+                            }
+
+                    <div class="col-md-8" style="position:relative; padding: 15px 10px 10px 10px;">
+                        <div style="font-size:2em;margin-bottom:5px;">
+                            @Html.DisplayFor(modelItem => item.Adresa)
+                        </div>
+                        <div >
+                            @Html.DisplayFor(modelItem => item.Tip.Naziv)  @Html.DisplayFor(modelItem => item.Kvadratura) m2
+                        </div>
+                        <div >
+                                    @Html.DisplayFor(modelItem => item.Cena) €
+                        </div>
+                        <div class="row" id="zadnjiRed" >
+                            @*<div class="col-md-7">
+                                    @if(item.Status.Naziv == "Nedostupno")
+                                    {
+                                        <p style="color: #BE0E0E">Prodato</p>
+                                    }
+                            </div>*@
+                            <div class="col-md-12" > @*style="display: flex; float:right;"*@
+
+                                        @if (User.IsInRole("Agent"))
+                                        {
+                                            <div id="dgumePregled">
+                                                <a href="@Url.ActionLink("Details", "Nekretnina", new { item.Id })" id="pregled" >Pregled <i class="fa-solid fa-eye"></i></a>
+                                            </div>
+                                        }
+                                        @if (User.IsInRole("Menadzer"))
+                                        {
+                                            @if (item.Status.Naziv == "Nedostupno")
+                                            {
+                                                <div id="dgumePregled">
+                                                    <a href="@Url.ActionLink("Details", "Nekretnina", new { item.Id })" id="pregled" >Pregled <i class="fa-solid fa-eye"></i></a>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="dropdown" >
+                                                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Akcije
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="@Url.ActionLink("Edit", "Nekretnina", new { item.Id })">Edit</a></li>
+                                                        <li><a class="dropdown-item" onclick=Delete("/Nekretnina/Delete/@item.Id")>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="@Url.ActionLink("Details", "Nekretnina", new { item.Id })">Pregled</a></li>
+                                                    </ul>
+                                                </div>
+                                            }
+                                            
+                                        }
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+            <div>
+                    <div class="pagination" style="display:inline-block; vertical-align:middle">
+                        @if (Model.PageCount > 1)
+                        {
+                            @Html.PagedListPager(Model, page => Url.Action("Index", new
+                        {
+                        page ,
+                        currentFilter = ViewBag.CurrentFilter,
+                        currentTip = ViewBag.CurrentTip,
+                        currentStatus = ViewBag.CurrentStatus,
+                        currentCenaOd = ViewBag.CenaOd,
+                        currentCenaDo = ViewBag.CenaDo
+                        }))
+                        }
+                    </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>
+@section Styles{
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link href="~/css/nekretninaIndex.css" rel="stylesheet" />
+    <link href="~/css/pagination.css" rel="stylesheet" />
+}
+@section Scripts{
+    <script src="~/js/delete.js" type="text/javascript"></script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

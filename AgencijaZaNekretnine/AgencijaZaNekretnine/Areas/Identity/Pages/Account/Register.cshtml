@@ -1,0 +1,108 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+@*<h1>@ViewData["Title"]</h1>*@
+
+<div class="wrappers">
+    <div class="form-box">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>Registracija</h2>
+            
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <input asp-for="Input.FirstName" autocomplete="FirstName" aria-required="true" placeholder="Ime" /> @* class="form-control"  *@
+                        @* <label asp-for="Input.FirstName"></label> *@
+                        <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <input asp-for="Input.LastName" autocomplete="LastName" aria-required="true" placeholder="Prezime" />
+                        @* <label asp-for="Input.LastName"></label>*@
+                        <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <input asp-for="Input.Phone" autocomplete="Phone" aria-required="true" placeholder="Broj Telefona" />
+                        @*<label asp-for="Input.Phone"></label>*@
+                        <span asp-validation-for="Input.Phone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <input asp-for="Input.Email" autocomplete="username" aria-required="true" placeholder="Email" />
+                        @*<label asp-for="Input.Email"></label>*@
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <input asp-for="Input.Password" autocomplete="new-password" aria-required="true" placeholder="Lozinka" />
+                        @*<label asp-for="Input.Password"></label>*@
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-box">
+                        <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" placeholder="Potvrdi Lozinku" />
+                        @*<label asp-for="Input.ConfirmPassword"></label>*@
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box-select">
+                <select asp-for="Input.Role" class="form-select" asp-items="@Model.Input.RoleList" aria-required="true">
+                    @* class="form-select"  *@
+                    <option disabled selected>Odaberi ulogu</option>
+                </select>
+                
+                <span asp-validation-for="Input.Role" class="text-danger"></span>
+            </div>
+            <div class="last-row">
+                <div class="row">
+                    <div class="login-register col-md-6">
+                        <p>
+                            Vratite se na stranu<br />
+                            <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="register-link"><i class="fa-solid fa-arrow-left-long"></i> Login</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">KREIRAJ NALOG</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </form>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('footer').empty();
+        $('#sidebar').empty();
+        $('#header').empty();
+    })
+</script>
+
+@section Styles{
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link href="~/css/register.css" rel="stylesheet" />
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    @*<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>*@
+}
